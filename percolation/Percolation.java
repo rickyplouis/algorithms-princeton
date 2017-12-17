@@ -53,6 +53,10 @@ public class Percolation {
 
     private int array;
 
+    public static void main(String args[]){
+        Percolation perc = new Percolation(0);
+    }
+
 
     Percolation(int n){
         array = n;
